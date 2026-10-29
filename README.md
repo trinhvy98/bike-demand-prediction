@@ -82,3 +82,27 @@ The notebook uses Python with:
 
 The notebook uses recorded same-day weather to estimate daily demand;
 it does not forecast future demand using weather forecasts.
+
+## Tested Environment
+
+- Python 3.13.18
+- pandas 2.2.3
+- matplotlib 3.10.0
+- scikit-learn 1.6.1
+
+The package versions are recorded in `requirements.txt`.
+
+To install these packages in a Python environment, run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+In Google Colab, upload `requirements.txt` and run this in a code cell:
+
+```python
+%pip install -r requirements.txt
+```
+
+If installation changes packages already loaded in Colab, restart
+the session before running the notebook from the beginning.
