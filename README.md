@@ -124,3 +124,11 @@ https://doi.org/10.24432/C5W894
 
 Download and extract the dataset from the source above, then upload
 `day.csv` to Colab before running the notebook.
+
+### Actual vs. Predicted Rentals
+
+![Actual and predicted daily bike rentals on the final test set](actual_vs_predicted.png)
+
+The plot compares observed rentals with the final random forest's
+predictions for July–December 2012. The model was kept unchanged
+after final test evaluation.
