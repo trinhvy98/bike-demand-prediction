@@ -106,3 +106,21 @@ In Google Colab, upload `requirements.txt` and run this in a code cell:
 
 If installation changes packages already loaded in Colab, restart
 the session before running the notebook from the beginning.
+
+## Dataset
+
+This project uses `day.csv` from the UCI Bike Sharing dataset.
+
+- Source: https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+- Coverage: January 1, 2011–December 31, 2012.
+- Observations: 731 daily records.
+- Target: `cnt`, the total number of daily bike rentals.
+- License: CC BY 4.0.
+
+Citation:
+Fanaee-T, H. (2013). Bike Sharing [Dataset].
+UCI Machine Learning Repository.
+https://doi.org/10.24432/C5W894
+
+Download and extract the dataset from the source above, then upload
+`day.csv` to Colab before running the notebook.
