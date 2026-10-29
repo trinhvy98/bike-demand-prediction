@@ -53,3 +53,32 @@ The final test results were not used for further model tuning.
 
 See [the analysis notebook](01_data_exploration.ipynb) for data checks,
 preprocessing, model comparisons, and final evaluation.
+
+## How to Run
+
+1. Download `01_data_exploration.ipynb` from this repository.
+2. Open the notebook in Google Colab.
+3. Download the Bike Sharing dataset from:
+   https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+4. Extract the downloaded ZIP file and locate `day.csv`.
+5. In Colab, open the Files sidebar and upload `day.csv`.
+6. Ensure the notebook's data-loading cell reads the uploaded file:
+   `pd.read_csv("day.csv")`
+7. Run all notebook cells from top to bottom.
+
+### Dependencies
+
+The notebook uses Python with:
+- pandas
+- matplotlib
+- scikit-learn
+
+### Expected Outputs
+
+- Data-quality checks and chronological data splits.
+- Validation comparisons between baseline, linear, and random forest models.
+- Final test MAE and RMSE.
+- A plot comparing actual and predicted rentals.
+
+The notebook uses recorded same-day weather to estimate daily demand;
+it does not forecast future demand using weather forecasts.
