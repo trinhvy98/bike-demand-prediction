@@ -132,3 +132,14 @@ Download and extract the dataset from the source above, then upload
 The plot compares observed rentals with the final random forest's
 predictions for July–December 2012. The model was kept unchanged
 after final test evaluation.
+
+### Prediction Details
+
+See [final test predictions](test_predictions.csv) for each test day's
+date, actual rentals, predicted rentals, signed error, and absolute error.
+
+Signed error is actual minus predicted:
+- Positive: the model underpredicted.
+- Negative: the model overpredicted.
+
+These predictions come from the frozen final model.
